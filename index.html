@@ -15,7 +15,6 @@
   <link type="text/plain" rel="author" href="humans.txt" />
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="icon" type="image/png" href="favicon.ico" />
-  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="styles.css">
 
   <meta name="theme-color" content="#FF2E88">
@@ -23,10 +22,10 @@
 
 <body class="topography font-hack">
 
-  <div class="flex justify-center items-center min-h-screen">
+  <div class="flex flex-col md:flex-row justify-center items-center min-h-screen">
 
     <!-- Headshot -->
-    <section class="mr-4">
+    <section class="mr-4 mb-8 md:mb-0">
       <img class="border-8 border-gradient-pink h-96" src="img/headshot.jpg" alt="Will Lamason's professional headshot" />
     </section>
 
@@ -51,7 +50,6 @@
     </section>
   </div>
 
-  <script src="bundle.js"></script>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <!-- <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
