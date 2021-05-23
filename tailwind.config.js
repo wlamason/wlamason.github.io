@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: true,
-    content: ['./dist/**/*.html', './src/**/*.js'],
+    content: ['./dist/**/*.html'],
     options: {
       keyframes: true,
     }

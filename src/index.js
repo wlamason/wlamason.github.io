@@ -1,2 +1,0 @@
-// CSS
-import "./styles.css";
