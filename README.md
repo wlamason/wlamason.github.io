@@ -41,3 +41,9 @@ purge: {
 Build purged and minified ```styles.css```:
 
 ```npm run build```
+
+## Deployment
+
+```git subtree push --prefix dist origin gh-pages```
+
+Learned this trick from [here](https://gist.github.com/cobyism/4730490). More about git subtree [here](https://gist.github.com/SKempin/b7857a6ff6bddb05717cc17a44091202).
