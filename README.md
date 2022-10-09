@@ -1,4 +1,4 @@
-# wmel.us
+# [wmel.us](https://wmel.us)
 
 > Personal website for William Lamason.
 
