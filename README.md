@@ -47,3 +47,9 @@ Build purged and minified ```styles.css```:
 ```git subtree push --prefix dist origin gh-pages```
 
 Learned this trick from [here](https://gist.github.com/cobyism/4730490). More about git subtree [here](https://gist.github.com/SKempin/b7857a6ff6bddb05717cc17a44091202).
+
+Messed up your git history and having trouble pushing to the subtree? Send it with:
+
+```git push origin `git subtree split --prefix dist main`:gh-pages --force```
+
+For more info, see [this link](https://stackoverflow.com/questions/13756055/why-cant-i-push-this-up-to-date-git-subtree).
